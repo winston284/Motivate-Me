@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Motivate-Me</string>
+    <string name="motivate_me">Motivate Me!</string>
+    <string name="categories">Categories</string>
+    <string name="studying">Studying</string>
+    <string name="health">Health</string>
+    <string name="relationships">Relationships</string>
+    <string name="todo">TODO</string>
+    <string name="animage">imageDesc</string>
+</resources>

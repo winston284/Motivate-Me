@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <TextView
+             android:id="@+id/textView"
+             android:layout_width="144dp"
+             android:layout_height="44dp"
+             android:gravity="center"
+             android:text="@string/categories"
+             android:textAllCaps="false"
+             android:textColor="#FFB4B4"
+             android:textSize="24sp"
+             android:textStyle="bold" />
+
+         <Button
+             android:id="@+id/play"
+             android:layout_width="130dp"
+             android:layout_height="match_parent"
+             android:onClick="Play"
+             android:text="Play music " />
+
+         <Button
+             android:id="@+id/pause"
+             android:layout_width="130dp"
+             android:layout_height="match_parent"
+             android:onClick="Pause"
+             android:text="Pause Music" />
+     </LinearLayout>
+
+
+     <Button
+         android:id="@+id/studying"
+         android:layout_width="match_parent"
+         android:layout_height="170dp"
+         android:background="@drawable/studying"
+         android:onClick="launchThirdActivity"
+         android:src="@drawable/studying"
+         android:text="@string/studying"
+         android:textColor="#FFFFFF"
+         android:textSize="36sp" />
+
+     <Button
+         android:id="@+id/health"
+         android:layout_width="match_parent"
+         android:layout_height="170dp"
+         android:background="@drawable/motivationalhealth"
+         android:onClick="launchHealthActivity"
+         android:text="@string/health"
+         android:textColor="#FFFFFF"
+         android:textSize="36sp" />
+
+     <Button
+         android:id="@+id/relationships"
+         android:layout_width="match_parent"
+         android:layout_height="170dp"
+         android:background="@drawable/motivationalrelationship"
+         android:onClick="launchRelationshipsActivity"
+         android:text="@string/relationships"
+         android:textColor="#FFFFFF"
+         android:textSize="36sp" />
+
+     <Button
+         android:id="@+id/button"
+         android:layout_width="match_parent"
+         android:layout_height="175dp"
+         android:background="@drawable/successstories"
+         android:onClick="launchSuccessStoriesActivity"
+         android:text="Success Stories"
+         android:textColor="#FFFFFF"
+         android:textSize="36sp" />
+
+     <Button
+         android:id="@+id/relaxing"
+         android:layout_width="match_parent"
+         android:layout_height="175dp"
+         android:background="@drawable/motivational"
+         android:onClick="launchRelaxingMusicActivity"
+         android:text="Motivational Music"
+         android:textColor="#FFFFFF"
+         android:textSize="36sp" />
+ </LinearLayout>
+
+</ScrollView>
